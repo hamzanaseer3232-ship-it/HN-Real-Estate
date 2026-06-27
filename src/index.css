@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy: #0a1f44;
+  --color-navy-light: #133065;
+  --color-navy-dark: #05122b;
+  
+  --color-gold: #c9a84c;
+  --color-gold-light: #dcb963;
+  --color-gold-dark: #ab8b35;
+
+  --font-sans: "Plus Jakarta Sans", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Plus Jakarta Sans", "Inter", sans-serif;
+  background-color: #07070a;
+}
